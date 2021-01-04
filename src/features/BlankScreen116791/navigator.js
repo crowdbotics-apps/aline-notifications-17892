@@ -1,12 +1,12 @@
 import { createStackNavigator } from "react-navigation-stack";
 
-import Blank from "./screens/blank";
+import Notifications from "./index";
 
 export default BlankBlueprintNavigator = createStackNavigator(
   {
-    Blank: { screen: Blank }
+    Notifications: { screen: Notifications }
   },
   {
-    initialRouteName: "Blank"
+    initialRouteName: "Notifications"
   }
 );
