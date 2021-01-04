@@ -1,6 +1,7 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import {createDrawerNavigator} from 'react-navigation-drawer';
+import BasicLoginSignup116790Navigator from '../features/BasicLoginSignup116790/navigator';
 
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
@@ -13,7 +14,7 @@ import SideMenu from './sideMenu';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
-
+    BasicLoginSignup: { screen: BasicLoginSignup116790Navigator },
     /** new navigators can be added here */
     SplashScreen: {
       screen: SplashScreen
